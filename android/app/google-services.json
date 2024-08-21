@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "873772621602",
+    "project_id": "trade-app-28d2d",
+    "storage_bucket": "trade-app-28d2d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:873772621602:android:085dfddc12b9149225cf7b",
+        "android_client_info": {
+          "package_name": "com.sandra.skibiszewska.trade_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAPZual4lzC3DDld8il7Vx65B1iG-TaYRY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

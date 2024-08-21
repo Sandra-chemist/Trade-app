@@ -1,6 +1,24 @@
+import 'package:firebase_core/firebase_core.dart';
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 
-void main() {
+Future main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+
+  if (kIsWeb) {
+    await Firebase.initializeApp(
+      options: const FirebaseOptions(
+          apiKey: "AIzaSyBKd7pCy9xbBNnORjoY00zaRhYVKwT4I9A",
+          authDomain: "trade-app-28d2d.firebaseapp.com",
+          projectId: "trade-app-28d2d",
+          storageBucket: "trade-app-28d2d.appspot.com",
+          messagingSenderId: "873772621602",
+          appId: "1:873772621602:web:48409ca3b4fabfff25cf7b",
+          measurementId: "G-KB78DJ341C"),
+    );
+  }
+
+  await Firebase.initializeApp();
   runApp(const MyApp());
 }
 
